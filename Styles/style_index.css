@@ -1,0 +1,76 @@
+body{
+  background-color: #131313;
+  color: #FFFFFF;
+}
+
+.card-panel{
+  background-color: #282828;
+  border-radius: 10px;
+}
+
+.table-of-contents a:hover {
+  color: #FAFAFA;
+  padding-left: 19px;
+  border-left: 1px solid #FF5722;
+}
+
+.table-of-contents a.active {
+  font-weight: 500;
+  padding-left: 18px;
+  border-left: 2px solid #FF5722;
+}
+
+.page-footer{
+  background-color: #131313;
+}
+
+.header-icon{
+  margin-left: 15%;
+  margin-top: 14px;
+}
+
+.header-opt{
+  color: #898989;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-right: 30px;
+}
+
+.header-opt:hover{
+  color: #FAFAFA;
+}
+
+.collapsible-header{
+  background-color: #282828;
+  border: 0px solid #ddd;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.collapsible-body{
+  border: 0px solid #ddd;
+  background-color: #282828;
+}
+.collapsible{
+  border: 0px solid #ddd;
+}
+
+.AgregarCollap{
+  font-weight: bold;
+  color:white;
+}
+/*Para los inputs de color*/
+.input-field input:focus + label {
+   color: #FF5722 !important;
+}
+.row .input-field input:focus {
+  border-bottom: 1px solid #FF5722 !important;
+  box-shadow: 0 1px 0 0 #FF5722 !important
+}
+/*Button wave*/
+.waves-effect.waves-orange .waves-ripple {
+  background-color: #FF5722;
+}
+.btn-flat{
+  color: #FFFFFF;
+  border: 0px solid #ddd;
+}
